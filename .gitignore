@@ -25,6 +25,8 @@ temp/
 .env
 .env.*
 !.env.example
+.npmrc
+**/.npmrc
 *.pem
 *.key
 *.crt
@@ -34,6 +36,8 @@ id_rsa*
 id_ed25519*
 known_hosts
 authorized_keys
+solana-config/id.json
+solana-config/**/*.json
 
 # Shell history and local state
 *_history

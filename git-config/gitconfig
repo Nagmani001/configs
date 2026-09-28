@@ -1,0 +1,11 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = nagmanipd3@gmail.com
+	name = Nagmani001
+[coderabbit]
+	machineId = cli/e90cd02fd2e746f0b4ddababf1df1e09
