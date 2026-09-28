@@ -1,0 +1,5 @@
+# Enable Vi mode (default is Emacs-style)
+fish_vi_key_bindings
+
+# Clone fzf.fish into your OMF plugins directory
+git clone https://github.com/PatrickF1/fzf.fish ~/.local/share/omf/pkg/fzf.fish

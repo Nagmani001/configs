@@ -1,0 +1,52 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and runtime state
+*.log
+*.log.*
+*.pid
+*.sock
+
+# Dependency/cache folders
+node_modules/
+.cache/
+cache/
+tmp/
+temp/
+
+# Nested Git repositories copied from live config folders
+**/.git/
+
+# Secrets and machine-local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+known_hosts
+authorized_keys
+
+# Shell history and local state
+*_history
+.*_history
+.viminfo
+.lesshst
+.wget-hsts
+fish-config/fish_variables
+**/.claude/settings.local.json
+
+# App-specific generated files
+btop-config/btop.log
+opencode-config/node_modules/
+opencode-config/package.json
+opencode-config/package-lock.json
+opencode-config/bun.lock

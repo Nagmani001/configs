@@ -1,0 +1,1 @@
+source "/home/nagmani/.deno/env.fish"
